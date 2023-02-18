@@ -465,26 +465,35 @@ footer{
 .foot-2{
     width: 50%;
     padding: 20px 20px 20px 60px;
-    
-    line-height: 25px;
-   
+    line-height: 25px;  
 }
-
-
-
-
-
-
-
-
-
-
-
 #low{
     margin: 10px;
     margin-left: 10px !important;
 }
+@media screen and (max-width :480px){
+    main{
+        padding: 0px;
+        box-sizing: border-box;
+        flex-direction: column;
+    }
+    .accomodation{
+        width: 100%;
+        margin: 0px;
+    }
+    .picture-1{
+        flex-direction: column;
+        width: 100%;
+        gap: 10px;
+        padding: 20px;
+    }
+    .set{
 
+        width: 80%;
+        height: 200px;
+        margin: auto;
+    }
+}
 
 
 
