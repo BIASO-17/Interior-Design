@@ -1,5 +1,8 @@
 *{
     padding: 0px;
+    margin: 0px;
+   margin-left: 0px;
+   margin-right: 0px;
    
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
 
@@ -270,7 +273,7 @@ main{
 }
 .text1{
 
-    line-height: 0px;
+    line-height: 25px;
     box-sizing: border-box;
     padding: 0px 5px 0px 5px;
 }
@@ -359,7 +362,7 @@ header button{
     background-position:0.5% 100%;
     background-size:110px;
     padding:0px 10px;
-    line-height: 10px;
+    line-height: 35px;
     
      height: 150px;
     width: 60%;
