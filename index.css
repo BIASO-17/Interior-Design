@@ -1,11 +1,15 @@
+
 *{
     padding: 0px;
     margin: 0px;
    margin-left: 0px;
    margin-right: 0px;
    
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
-
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+body{
+    Overflow-x: hidden;
+}
 .border{
     border: 1px solid black;
     box-sizing: border-box;
@@ -179,6 +183,7 @@ div .long{
 
         /*HEADER*/
 /*Accomodation*/
+
 main{
     
     min-height: 650px;
@@ -305,6 +310,7 @@ header button{
 
 
 /*Most Popular*/
+
 .most-popular{
     background-color: #eef0f0;
     border-radius: 30px;
@@ -555,8 +561,11 @@ footer{
         gap: 2%;
     }
     .div5{
-        height: 300px;
+        min-height: 250px;
         width: 100%;
+    }
+    .image1{
+        min-height: 200px;
     }
     .image2{
         width: 48%;
