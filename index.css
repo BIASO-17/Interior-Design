@@ -1,6 +1,6 @@
 
 *{
-    padding: 0px;
+    padding: 0px ;
     margin: 0px;
    margin-left: 0px;
    margin-right: 0px;
@@ -541,11 +541,13 @@ footer{
     .foot-1{
         width: 100%;
         text-align: center;
+        padding: 20px 0px;
+        
     }
     .foot-2{
         width: 100%;
         text-align: center;
-        padding: 20px;
+        padding: 0px;
     }
     .main-2{
         flex-direction: column;
