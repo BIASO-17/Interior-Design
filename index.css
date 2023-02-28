@@ -119,8 +119,9 @@ header{
 .filters{
     box-sizing: border-box;
     min-height: 43px;
-    width: 60%;
+    width: 80%;
    display: flex;
+   font-size: 15px;
    
 }
 .filt{
@@ -133,7 +134,8 @@ header{
 .cost{
     margin-left:9px ;
    text-align: center;
-   min-width:20%;
+  /* min-width:20%;*/
+  padding-left: 20px;
    border-radius: 20px;
    box-sizing: border-box;
    background-repeat:no-repeat ;
@@ -147,8 +149,8 @@ header{
 }
 .span{
     display: flex;
-    width: 50%;
-    gap: 5%;
+    width: 40%;
+    gap: 2%;
 }
 .cost1{
     background-image: url("./images/money1.png");
@@ -162,14 +164,17 @@ header{
 .cost4{
     background-image: url("./images/pets.png");
 }
+
 div .short{
     margin: 10px ;
     margin-left: 30px;
+    
 }
 div .long{
     margin: 10px ;
     margin-left: 45px;
 }
+*/
 .words{
     
     margin-left: 19px;
@@ -653,9 +658,14 @@ footer{
     .cost4{
         width: 45%;
     }
+    .cost{
+        padding: 0px;
+    }
 }
 
+@media screen and (max-width :768px){
 
+}
 
 
 
