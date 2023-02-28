@@ -105,6 +105,7 @@ header{
     width: 30%;
     display: flex;
     padding: 5px 5px 5px 0px;
+    box-sizing: border-box;
 }
 .locate{
     box-sizing: border-box;
@@ -112,7 +113,8 @@ header{
    width: 11%;
    border-top-right-radius: 0px;
    border-bottom-right-radius: 0px;
-   background-color: #eef0f0;   
+   background-color: #eef0f0;  
+   height: 35px; 
 }
 .filters{
     box-sizing: border-box;
@@ -142,6 +144,11 @@ header{
 .cost h4{
     margin: 10px;
     margin-left: 22.5%;
+}
+.span{
+    display: flex;
+    width: 50%;
+    gap: 5%;
 }
 .cost1{
     background-image: url("./images/money1.png");
@@ -285,13 +292,12 @@ main{
     padding: 0px 5px 0px 5px;
 }
 header img{
-    height: 40px;
-    margin-left: 5px;
-    margin-right: 10px;  
+    height: 30px;
+    margin-left:15px;
 }
 header input{
     box-sizing: border-box;
-    height: 40px;
+    height: 35px;
     border: 0px;
     padding: 2px 2px 2px 5px;
     margin-left: 3px;
@@ -308,6 +314,7 @@ header button{
     width: 19%;
     border-top-left-radius: 0px;
    border-bottom-left-radius: 0px;
+   height: 35px;
 }
 
 
@@ -589,6 +596,8 @@ footer{
     }
     .location{
         width: 100%;
+        padding-left: 15%;
+    
     }
     .logo{
         padding-left: 0px;
@@ -618,7 +627,32 @@ footer{
         margin-top: 15%;
         margin-left: 0px;
     }
+    .filters{
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    .filt-0{
+        margin-left:0%;
+        width: 20%;
+    }
+    .span{
+        display: flex;
+        width: 100%;
+        padding:0px 5% ;
+       gap: 0px;
+       box-sizing: border-box;
+       margin: 5px 0px;
+    }
     
+    .cost1{
+        width: 30%;
+    }
+    .cost2{
+        width: 45%;
+    }
+    .cost4{
+        width: 45%;
+    }
 }
 
 
