@@ -225,7 +225,18 @@ main{
     box-sizing: border-box;
     height: 80%;
     
-    padding: 5px 10px 20px 10px;
+    padding: 5px 10px 20px 30px;
+    display: flex;
+    flex-wrap: wrap;
+    /**/
+   
+    border-radius: 20px;
+    width: 100%;
+    min-height: 50%;
+    display: flex;
+    gap: 25px;
+    
+    
 }
 .picture-1{
     box-sizing: border-box;
@@ -240,10 +251,11 @@ main{
 .set{
     box-sizing: border-box;
     background-color: white;
-    width: 35%;
+    width: 30%;
     height: 250px;
     border-radius: 20px;
     box-shadow: 5px 5px 10px #aaaaaa;
+    
     
 }
 .star1{
@@ -528,20 +540,22 @@ footer{
         width: 100%;
         margin: 10px 0px 10px 0px;
     }
-    .picture-1{
-        flex-direction: column;
-        width: 100%;
-        gap: 10px;
-        padding: 10px;
-    }
+    
     .head-foot{
         text-align: center;
     }
     .set{
 
-        width: 100%;
+        width: 47%;
         min-height: 200px;
-        margin: auto;
+       
+    }
+    .main{
+        padding: 0px;
+        padding-left: 10px;
+        gap: 10px;
+        flex-wrap: wrap;
+
     }
     .most-popular{
         width: 100%;
@@ -620,9 +634,7 @@ footer{
     .words p{
         margin-left: 20px;
     }
-    .main{
-        padding-left: 0px;
-    }
+    
     
     .text2{
         margin: auto;
