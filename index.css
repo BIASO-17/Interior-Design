@@ -122,6 +122,7 @@ header{
     width: 80%;
    display: flex;
    font-size: 15px;
+   gap: 0px;
    
 }
 .filt{
@@ -150,7 +151,8 @@ header{
 .span{
     display: flex;
     width: 40%;
-    gap: 2%;
+    gap: 25px;
+    padding-right: 0px;
 }
 .cost1{
     background-image: url("./images/money1.png");
@@ -673,11 +675,162 @@ footer{
     .cost{
         padding: 0px;
     }
+    .text1{
+        font-size: 70%;
+    }
 }
-
 @media screen and (max-width :768px){
+     nav{
+        margin: 0px 10px;
+    }
+    main{
+        padding:0px 10px;
+        box-sizing: border-box;
+        flex-direction: column;
+    }
+    .accomodation{
+        width: 100%;
+        margin: 10px 0px 10px 0px;
+    }
+    
+    .head-foot{
+        text-align: center;
+    }
+    .set{
 
+        width: 47%;
+        min-height: 200px;
+       
+    }
+    .main{
+        padding: 0px;
+        padding-left: 10px;
+        gap: 10px;
+        flex-wrap: wrap;
+
+    }
+    .most-popular{
+        width: 100%;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    
+    .set2{
+        height: 200px;
+    }
+    footer{
+        flex-direction: column;
+        text-align: center;
+        gap: 3px;
+    }
+    .foot-1{
+        width: 100%;
+        text-align: center;
+        padding: 20px 0px;
+        
+    }
+    .foot-2{
+        width: 100%;
+        text-align: center;
+        padding: 0px;
+    }
+    .main-2{
+        flex-direction: column;
+    }
+    .set3{
+        flex-direction: column;
+        width: 100%;
+        padding-left: 10px;
+    }
+    .div1{
+        display: flex;
+        width: 100%;
+        height: 300px;
+        gap: 2%;
+    }
+    .div5{
+        min-height: 250px;
+        width: 100%;
+    }
+    .image1{
+        min-height: 200px;
+    }
+    .image2{
+        width: 48%;
+        height: 100%;
+        
+    }
+    .all{
+        width: 100%;
+        float: right;
+        padding:0px;
+    }
+    .location{
+        width: 100%;
+        padding-left: 15%;
+    
+    }
+    .logo{
+        padding-left: 0px;
+        
+    }
+    #logo{
+        padding: 0px;
+    }
+    .header-blocks{
+        padding:0px 10px;
+    }
+    .words{
+        margin-left: 0px;
+    }
+    .words p{
+        margin-left: 20px;
+    }
+    
+    
+    .text2{
+        margin: auto;
+    }
+    .div4 h4{
+        text-align: center;
+        margin-top: 15%;
+        margin-left: 0px;
+    }
+    .filters{
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    .filt-0{
+        margin-left:0%;
+        width: 20%;
+    }
+    .span{
+        display: flex;
+        width: 100%;
+        padding:0px 5% ;
+       gap: 0px;
+       box-sizing: border-box;
+       margin: 5px 0px;
+    }
+    
+    .cost1{
+        width: 30%;
+    }
+    .cost2{
+        width: 45%;
+    }
+    .cost4{
+        width: 45%;
+    }
+    .cost{
+        padding: 0px;
+    }
+    .text1{
+        font-size: 70%;
+    }
 }
+
+
 
 
 
